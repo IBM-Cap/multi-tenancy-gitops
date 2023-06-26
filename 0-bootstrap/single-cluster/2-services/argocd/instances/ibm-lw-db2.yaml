@@ -25,9 +25,9 @@ spec:
           sccs: ["privileged"]
 
         ibm-lw-db2:
-          name: db2
+          name: db2-lw
           replicaCount: 1
-          serviceName: db2
+          serviceName: db2-lw
           serviceAccount: db2
           image:
             repository: quay.io/lightwell/lightwell-db2:1.0.2
